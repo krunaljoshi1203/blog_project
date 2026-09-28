@@ -1,0 +1,21 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "Blog Project - Node.js with Register, Login, Cookies, Protected Route & View Blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "blog", "authentication"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
